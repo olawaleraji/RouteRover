@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import Home from "../Rental/CarHome";
+import Home from "../Rental/BikeHome";
 import Bikes from "../Bike";
 import Contact from "../Contact";
 import Share from "../Sh";

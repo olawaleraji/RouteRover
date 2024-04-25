@@ -260,7 +260,7 @@ const Card = () => {
               <div className="flex justify-between mt-2">
                 <p className="w-1/2 text-left font-bold">{card.price}</p>
                 <p className="w-1/2 text-right">
-                  <Button className="bg-black text-white">Button</Button>
+                  <Button className="bg-black text-white">Rent Car</Button>
                 </p>
               </div>
             </div>

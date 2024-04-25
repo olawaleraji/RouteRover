@@ -1,7 +1,8 @@
 import React from "react";
 import TheHero from "./CarStore/TheHero";
-import Card from "./CarStore/Card";
+import Card from "./BikeStore/Card";
 import Footer from "../Home/Footer";
+import Product from "./Product";
 
 type Props = {};
 
