@@ -9,14 +9,14 @@ const Card = () => {
       image: "/carsImage/lambo.jpg",
       leftDetails: [
         { label: "Seats", value: "2" },
-        { label: "Luggage", value: "1" },
-        { label: "Doors", value: "2" },
+        { label: "Luggage", value: "Limited" },
+        { label: "Doors", value: "Scissor Doors" },
         { label: "Fuel", value: "Petrol" },
       ],
       rightDetails: [
         { label: "Horsepower", value: "700" },
         { label: "Engine", value: "6.5L V12" },
-        { label: "Drive", value: "4WD" },
+        { label: "Drive", value: "AWD" },
         { label: "Type", value: "Coupe" },
       ],
       price: "$500,000",
@@ -42,50 +42,56 @@ const Card = () => {
       title: "Tesla Cybertruck",
       image: "/carsImage/teslatruck.jpg",
       leftDetails: [
-        { label: "Seats", value: "2" },
-        { label: "Storage", value: "6.5 ft" },
+        { label: "Seats", value: "5" }, // Update if needed for a different trim
+        { label: "Storage", value: "6.5 ft bed" }, // Specify storage type (bed or total)
         { label: "Doors", value: "4" },
         { label: "Fuel", value: "Electric" },
       ],
       rightDetails: [
-        { label: "Horsepower", value: "600" },
-        { label: "Battery", value: "250 kWh" },
+        { label: "Horsepower", value: "600" }, // Update if needed for a different trim
+        { label: "Battery", value: "217 kWh" }, // Update based on Cybertruck model
         { label: "Drive", value: "AWD" },
         { label: "Type", value: "Truck" },
       ],
-      price: "$70,000",
+      price: "$70,000", // Base price might change depending on availability
     },
     {
       title: "Jeep Renegade",
       image:
         "https://media.gettyimages.com/id/512689454/photo/jeep-renegade-crossover-suv.jpg?s=612x612&w=0&k=20&c=qxiykapMZTzcRtkIiZ2VJOGe51ypWJ-adWCwfumRxco=",
       leftDetails: [
-        { label: "Seats", value: "4" },
-        { label: "Luggage", value: "4" },
-        { label: "Door", value: "4" },
+        { label: "Seats", value: "5" },
+        { label: "Luggage", value: "15.1 cu ft" }, // Update unit if preferred
+        { label: "Doors", value: "4" },
         { label: "Fuel", value: "Petrol" },
       ],
       rightDetails: [
-        { label: "Horsepower", value: "500" },
-        { label: "Engine", value: "3000" },
-        { label: "Drive", value: "4" },
-        { label: "Type", value: "Hatchback" },
+        { label: "Horsepower", value: "Up to 180" }, // Specify range
+        { label: "Engine", value: "Varies (typically 2.0L or 1.3L I4 Turbo)" },
+        { label: "Drive", value: "FWD or AWD" },
+        { label: "Type", value: "Subcompact SUV" },
       ],
-      price: "$56",
+      price: "Starting at $27,000", // Base price might change depending on availability
     },
     {
       title: "Tesla Semi",
       image: "/carsImage/teslasemi.jpg",
       leftDetails: [
         { label: "Seats", value: "2" },
-        { label: "Cargo Capacity", value: "Unknown" },
-        { label: "Doors", value: "1" },
+        { label: "Cargo Capacity", value: "Varies depending on configuration" }, // Update if you find estimates
+        { label: "Doors", value: "1 (center)" },
         { label: "Fuel", value: "Electric" },
       ],
       rightDetails: [
-        { label: "Horsepower", value: "Unknown" },
-        { label: "Battery", value: "Unknown" },
-        { label: "Drive", value: "Unknown" },
+        {
+          label: "Horsepower",
+          value: "Powerful electric motors (estimated over 1000 hp)",
+        }, // Update based on available info
+        {
+          label: "Battery",
+          value: "Large battery pack (estimated range of 300 or 500 miles)",
+        }, // Update based on available info
+        { label: "Drive", value: "RWD (likely)" },
         { label: "Type", value: "Truck" },
       ],
       price: "Contact for Price",
@@ -95,14 +101,14 @@ const Card = () => {
       image: "/carsImage/Mclarenp1.jpg",
       leftDetails: [
         { label: "Seats", value: "2" },
-        { label: "Luggage", value: "2" },
+        { label: "Luggage", value: "Limited" }, // Update if you find a specific value
         { label: "Doors", value: "2" },
         { label: "Fuel", value: "Petrol" },
       ],
       rightDetails: [
         { label: "Horsepower", value: "903" },
         { label: "Engine", value: "3.8L V8 Hybrid" },
-        { label: "Drive", value: "RWD" },
+        { label: "Drive", value: "RWD (AWD in P1 GTR)" }, // Update if needed
         { label: "Type", value: "Coupe" },
       ],
       price: "$1,350,000",
@@ -112,12 +118,12 @@ const Card = () => {
       image: "/carsImage/bugattichiron.jpg",
       leftDetails: [
         { label: "Seats", value: "2" },
-        { label: "Luggage", value: "1" },
+        { label: "Luggage", value: "Limited" }, // Update if you find a specific value
         { label: "Doors", value: "2" },
         { label: "Fuel", value: "Petrol" },
       ],
       rightDetails: [
-        { label: "Horsepower", value: "1500" },
+        { label: "Horsepower", value: "1479" }, // Update if needed
         { label: "Engine", value: "8.0L Quad-Turbo W16" },
         { label: "Drive", value: "AWD" },
         { label: "Type", value: "Coupe" },
@@ -129,12 +135,12 @@ const Card = () => {
       image: "/carsImage/pagani.jpg",
       leftDetails: [
         { label: "Seats", value: "2" },
-        { label: "Luggage", value: "2" },
+        { label: "Luggage", value: "Limited" }, // Update if you find a specific value
         { label: "Doors", value: "2" },
         { label: "Fuel", value: "Petrol" },
       ],
       rightDetails: [
-        { label: "Horsepower", value: "720" },
+        { label: "Horsepower", value: "720" }, // Update if needed for a specific variant
         { label: "Engine", value: "6.0L Twin-Turbo V12" },
         { label: "Drive", value: "RWD" },
         { label: "Type", value: "Coupe" },
@@ -151,9 +157,9 @@ const Card = () => {
         { label: "Fuel", value: "Petrol" },
       ],
       rightDetails: [
-        { label: "Horsepower", value: "1600" },
+        { label: "Horsepower", value: "1280 (1600 on E85)" },
         { label: "Engine", value: "5.0L Twin-Turbo V8" },
-        { label: "Drive", value: "RWD" },
+        { label: "Drive", value: "RWD" }, // Update to AWD if referring to Jesko Attack
         { label: "Type", value: "Coupe" },
       ],
       price: "$2,800,000",
@@ -163,7 +169,7 @@ const Card = () => {
       image: "/carsImage/MclarenSpeedtail.jpg",
       leftDetails: [
         { label: "Seats", value: "3" },
-        { label: "Luggage", value: "2" },
+        { label: "Luggage", value: "Limited" }, // Update if you find a specific value
         { label: "Doors", value: "2" },
         { label: "Fuel", value: "Petrol" },
       ],
@@ -185,15 +191,16 @@ const Card = () => {
         { label: "Fuel", value: "Petrol" },
       ],
       rightDetails: [
-        { label: "Horsepower", value: "1160" },
+        { label: "Horsepower", value: "1160 (combined)" }, // Update value based on preference
         { label: "Engine", value: "6.5L V12 Hybrid" },
         { label: "Drive", value: "RWD" },
         { label: "Type", value: "Coupe" },
       ],
       price: "$3,250,000",
+      note: "V12 engine alone produces 1001 horsepower.", // Optional note
     },
     {
-      title: "Buggati Divo",
+      title: "Bugatti Divo",
       image: "/carsImage/BuggatiDivo.jpg",
       leftDetails: [
         { label: "Seats", value: "2" },
@@ -202,12 +209,12 @@ const Card = () => {
         { label: "Fuel", value: "Petrol" },
       ],
       rightDetails: [
-        { label: "Horsepower", value: "1500" },
+        { label: "Horsepower", value: "1479" }, // Updated for consistency with Chiron
         { label: "Engine", value: "8.0L Quad-Turbo W16" },
         { label: "Drive", value: "AWD" },
         { label: "Type", value: "Coupe" },
       ],
-      price: "$5,800,000",
+      price: "Starting at $5,800,000", // Price format remains the same
     },
     // Add more card details as needed
   ];
