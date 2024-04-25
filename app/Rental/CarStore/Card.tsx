@@ -109,7 +109,7 @@ const Card = () => {
     },
     {
       title: "Bugatti Chiron",
-      image: "https://via.placeholder.com/600x400",
+      image: "/carsImage/bugattichiron.jpg",
       leftDetails: [
         { label: "Seats", value: "2" },
         { label: "Luggage", value: "1" },
@@ -126,8 +126,7 @@ const Card = () => {
     },
     {
       title: "Pagani Huayra",
-      image:
-        "https://cdn.motor1.com/images/mgl/AXlL9/s1/2021-pagani-huayra.jpg",
+      image: "/carsImage/pagani.jpg",
       leftDetails: [
         { label: "Seats", value: "2" },
         { label: "Luggage", value: "2" },
@@ -144,7 +143,7 @@ const Card = () => {
     },
     {
       title: "Koenigsegg Jesko",
-      image: "https://cdn.motor1.com/images/mgl/WpwJl/s1/koenigsegg-jesko.jpg",
+      image: "/carsImage/jesko.jpg",
       leftDetails: [
         { label: "Seats", value: "2" },
         { label: "Luggage", value: "2" },
@@ -161,8 +160,7 @@ const Card = () => {
     },
     {
       title: "McLaren Speedtail",
-      image:
-        "https://cdn.motor1.com/images/mgl/W0EJl/s1/2020-mclaren-speedtail.jpg",
+      image: "/carsImage/MclarenSpeedtail.jpg",
       leftDetails: [
         { label: "Seats", value: "3" },
         { label: "Luggage", value: "2" },
@@ -179,8 +177,7 @@ const Card = () => {
     },
     {
       title: "Aston Martin Valkyrie",
-      image:
-        "https://cdn.motor1.com/images/mgl/Q9gW2/s1/aston-martin-valkyrie.jpg",
+      image: "/carsImage/Aston2.jpg",
       leftDetails: [
         { label: "Seats", value: "2" },
         { label: "Luggage", value: "1" },
@@ -197,7 +194,7 @@ const Card = () => {
     },
     {
       title: "Buggati Divo",
-      image: "https://cdn.motor1.com/images/mgl/0XzN2/s1/2021-bugatti-divo.jpg",
+      image: "/carsImage/BuggatiDivo.jpg",
       leftDetails: [
         { label: "Seats", value: "2" },
         { label: "Luggage", value: "1" },
@@ -216,7 +213,7 @@ const Card = () => {
   ];
 
   return (
-    <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+    <div className="max-w-[92rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
       <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-6">
         {cardDetails.map((card, index) => (
           <a
