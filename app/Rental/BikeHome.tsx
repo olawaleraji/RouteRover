@@ -1,5 +1,5 @@
 import React from "react";
-import TheHero from "./CarStore/TheHero";
+import TheHero from "./BikeStore/TheHero";
 import Card from "./BikeStore/Card";
 import Footer from "../Home/Footer";
 import Product from "./Product";
