@@ -10,8 +10,8 @@ const BikeHome = (props: Props) => {
   return (
     <div>
       <TheHero />
-      {/* <Product /> */}
       <Card />
+      <Product />
       <Footer />
     </div>
   );

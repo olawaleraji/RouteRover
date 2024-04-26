@@ -3,6 +3,7 @@ import { Libre_Caslon_Display } from "next/font/google";
 import "./globals.css";
 import PrelineScript from "./PrelineScript";
 import { Providers } from "./providers";
+import { Provider } from "./provida";
 
 const libreCaslon = Libre_Caslon_Display({
   subsets: ["latin"],
@@ -22,8 +23,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={libreCaslon.className}>
-        <Providers>{children}</Providers>
-        <PrelineScript />
+        <Provider>
+          <Providers>{children}</Providers>
+          <PrelineScript />
+        </Provider>
       </body>
     </html>
   );
